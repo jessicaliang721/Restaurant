@@ -1,5 +1,35 @@
-.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+.navbar-default {
+background-color: #FFF;
+border-color: #FFF;
+}
 
-background-color: red;
-border-color: transparent;
+body {
+font-family: "Open Sans",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+background-image: url("http://i61.tinypic.com/70djj8.jpg");
+}
+
+.h1, h1 {
+font-size: 36px;
+text-align: center;
+}
+
+.row {
+margin-right: -15px;
+margin-left: -15px;
+background-color: #FFF
+}
+
+.btn-primary {
+color: #4E4E4E;
+background-color: #FFFF85;
+border-color: #FFFF85;
+}
+
+.btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
+color: #4E4E4E;
+background-color: #E6E678;
+border-color: #E6E678;
 }
