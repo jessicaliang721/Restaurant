@@ -112,7 +112,7 @@
 
     <div class="row">
       <div class="col-sm-6 col-md-4">
-      <h2>Hours</h2>
+      <h2 class="center">Hours</h2>
       <table style="width:100%">
         <tr>
           <td>Monday</td>
@@ -146,19 +146,19 @@
       </div>
 
       <div class="col-sm-6 col-md-4">
-        <h2>Location</h2>
+        <h2 class="center">Location</h2>
         <p>Address: 6696 Enright Avenue, St. Louis, MO 63130</p>
         
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3115.661933466255!2d-90.30851200000002!3d38.65665300000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87df3553f432aa21%3A0xce76d3f91de3b7b0!2sU-City+Grill!5e0!3m2!1sen!2sus!4v1423799145925" width="100%" height="100%" frameborder="0" style="border:0"></iframe>
       </div>
 
       <div class="col-sm-6 col-md-4">
-        <h2>Contact</h2>
+        <h2 class="center">Contact</h2>
         <p>If you have any comments or questions, we'd love to hear from you. Please leave a review of U City Grill if you enjoyed the food. Thank you!</p>
         <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+          <p class="center"><button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
             Leave a Review
-          </button>
+          </button></p>
 
           <!-- Modal -->
           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
@@ -166,27 +166,27 @@
               <div class="modal-content">
                 <div class="modal-header">
                   <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                  <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  <h4 class="modal-title" id="myModalLabel">Leave a Review</h4>
                 </div>
                 <div class="modal-body">
-                            <form>
-                      <div class="text">
-                        <label>
-                          <input type="text" class="form-control" placeholder="Name">
-                        </label>
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputName2">Name</label>
+                        <input type="text" class="form-control" id="exampleInputName2" placeholder="Name">
                       </div>
                       <div class="form-group">
                         <label for="exampleInputEmail1">Email address</label>
                         <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
                       </div>
                       <div>
-                        <label>
-                        <textarea class="form-control" rows="3"></textarea>
-                        </label>
+                        <label>Comment</label>
+                        <textarea class="form-control" rows="5"></textarea>
                       </div>
-                      
-                      <button type="submit" class="btn btn-default">Submit</button>
+                      <div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                      </div>
                     </form>
+
                 </div>
                 <div class="modal-footer">
                   <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

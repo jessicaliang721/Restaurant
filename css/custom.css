@@ -1,19 +1,40 @@
+.h1, h1 {
+font-size: 36px;
+text-align: center;
+}
+
+.h2, h2 {
+font-family: inherit;
+font-weight: 500;
+line-height: 1.1;
+color: #4E4E4E;
+background-color: #FFFF85;
+padding-top: 5px;
+padding-bottom: 0px;
+padding-left: 5px;
+}
+
 .navbar-default {
 background-color: #FFF;
 border-color: #FFF;
 }
 
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+color: #4E4E4E;
+background-color: #FFFF85;
+}
+
+
+.center{
+	text-align: center;
+}
+
 body {
-font-family: "Open Sans",Helvetica,Arial,sans-serif;
+font-family: "Lucida Sans Unicode","Lucida Grande",Arial,sans-serif;
 font-size: 14px;
 line-height: 1.42857143;
 color: #333;
 background-image: url("http://i61.tinypic.com/70djj8.jpg");
-}
-
-.h1, h1 {
-font-size: 36px;
-text-align: center;
 }
 
 .row {
@@ -24,12 +45,20 @@ background-color: #FFF
 
 .btn-primary {
 color: #4E4E4E;
-background-color: #FFFF85;
-border-color: #FFFF85;
+background-color: #BBE6F7;
+border-color: #BBE6F7;
 }
 
 .btn-primary.active, .btn-primary.focus, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open>.dropdown-toggle.btn-primary {
 color: #4E4E4E;
-background-color: #E6E678;
-border-color: #E6E678;
+background-color: #89D5F2;
+border-color: #89D5F2;
+}
+
+p.italic {
+    font-style: italic;
+}
+
+p.thick {
+    font-weight: bold;
 }
