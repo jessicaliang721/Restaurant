@@ -28,14 +28,31 @@ border-color: #FFF;
 font-family: 'Titillium Web', sans-serif;
 }
 
+.navbar {
+position: relative;
+min-height: 50px;
+margin-bottom: 20px;
+border: 1px solid transparent;
+}
+
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
 color: #4E4E4E;
 background-color: #FFFF85;
 }
 
+.navbar-brand {
+float: left;
+height: 50px;
+padding: 15px 15px;
+font-size: 14px;
+line-height: 20px;
+}
+
 
 .center{
 	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 body {
@@ -64,6 +81,12 @@ background-color: #89D5F2;
 border-color: #89D5F2;
 }
 
+button, input, select, textarea {
+font-family: 'Abel', sans-serif;
+font-size: inherit;
+line-height: inherit;
+}
+
 p.italic {
     font-style: italic;
 }
@@ -71,3 +94,4 @@ p.italic {
 p.thick {
     font-weight: bold;
 }
+
