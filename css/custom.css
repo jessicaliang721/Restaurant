@@ -1,10 +1,11 @@
 .h1, h1 {
-font-size: 36px;
+font-size: 48px;
 text-align: center;
+font-family: 'Titillium Web', sans-serif;
 }
 
 .h2, h2 {
-font-family: inherit;
+font-family: 'Abel', sans-serif;
 font-weight: 500;
 line-height: 1.1;
 color: #4E4E4E;
@@ -14,9 +15,17 @@ padding-bottom: 0px;
 padding-left: 5px;
 }
 
+.h2, .h3, .h4, .h5, .h6, h2, h3, h4, h5, h6 {
+font-family: 'Abel', sans-serif;
+font-weight: 500;
+line-height: 1.1;
+color: inherit;
+}
+
 .navbar-default {
 background-color: #FFF;
 border-color: #FFF;
+font-family: 'Titillium Web', sans-serif;
 }
 
 .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
