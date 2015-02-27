@@ -48,7 +48,6 @@ font-size: 14px;
 line-height: 20px;
 }
 
-
 .center{
 	text-align: center;
 	margin-left: auto;
@@ -95,3 +94,12 @@ p.thick {
     font-weight: bold;
 }
 
+a {
+color: #49ABFF;
+text-decoration: none;
+}
+
+a:focus, a:hover {
+color: #287AC3;
+text-decoration: none;
+}
